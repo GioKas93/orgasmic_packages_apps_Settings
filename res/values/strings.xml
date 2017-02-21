@@ -13581,6 +13581,7 @@
     <string name="bluetooth_connect_access_dialog_positive">Connect</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Radio info</string>
+    
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">Disabled</string>
@@ -13606,9 +13607,5 @@
 
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s today</string>
-
-    <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
 
 </resources>
