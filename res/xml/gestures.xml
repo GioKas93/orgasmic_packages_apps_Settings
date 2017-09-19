@@ -86,12 +86,18 @@
         android:title="@string/power_menu_setting_name"
         android:fragment="com.android.settings.gestures.PowerMenuSettings"
         settings:controller="com.android.settings.gestures.PowerMenuPreferenceController" />
+      
+    <Preference
+	     android:key="power_menu"
+       android:title="@string/power_menu_title"
+       android:summary="@string/power_menu_title_summary"
+	     android:fragment="com.android.settings.system.PowerMenuSettings" /> 
 
      <Preference
         android:key="volume_button_music_control_sumary"
         android:title="@string/volume_button_music_control_title"
         android:fragment="com.android.settings.gestures.VolumeButtonMusicControlGestureSettings"
-        settings:controller="com.android.settings.gestures.VolumeButtonMusicControlPreferenceController" />
+        settings:controller="com.android.settings.gestures.VolumeButtonMusicControlPreferenceController" />       
 
     <com.android.settings.widget.PrimarySwitchPreference
         android:key="gesture_prevent_ringing_summary"
