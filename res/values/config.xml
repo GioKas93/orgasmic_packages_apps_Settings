@@ -548,4 +548,8 @@
 
     <!-- Whether to aggregate for network selection list-->
     <bool name="config_network_selection_list_aggregation_enabled">false</bool>
+
+    <!-- Whether SELinux status should be shown or not. -->
+    <bool name="config_show_selinux_status">true</bool>
+
 </resources>
