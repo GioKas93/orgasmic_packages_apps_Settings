@@ -102,6 +102,14 @@
             settings:keywords="@string/keywords_sim_status"
             android:summary="@string/summary_placeholder"
             settings:enableCopying="true"/>
+            
+        <Preference
+            android:title="@string/radio_info_title"
+            android:key="radio_info_settings">
+        <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.phone"
+                android:targetClass="com.android.phone.settings.RadioInfo" />
+        </Preference>
 
         <!-- Model & hardware -->
         <Preference
