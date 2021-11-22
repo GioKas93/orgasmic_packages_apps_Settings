@@ -88,6 +88,8 @@ public class BuildNumberPreferenceController extends BasePreferenceController im
             "This won't make you look cooler to your friends",
             "Go back to your stock ROM",
             "You look like a person who plays PUBG on his phone",
+            "My phone just said Im stupid,plox sar gib fix!!",
+            "You really want your phone to explode... dumbass?!",
     };
 
     public BuildNumberPreferenceController(Context context, String key) {
